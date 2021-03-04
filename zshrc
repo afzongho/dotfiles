@@ -8,7 +8,6 @@ plugins=(gitfast last-working-dir common-aliases sublime zsh-syntax-highlighting
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
-
 ZSH_DISABLE_COMPFIX=true
 # Actually load Oh-My-Zsh
 source "${ZSH}/oh-my-zsh.sh"
@@ -48,4 +47,13 @@ export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe
 sudo /etc/init.d/postgresql start
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
+export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe
+export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe
+export BROWSER=/mnt/c/Program\ Files\ \(x86\)/Mozilla\ Firefox/firefox.exe
+sudo /etc/init.d/postgresql start
+export BROWSER='"/mnt/c/Program Files/Mozilla Firefox/firefox.exe"'
+export BROWSER='"/mnt/c/Program Files (x86)/Mozilla Firefox/firefox.exe"'
+export BROWSER='"/mnt/c/Program Files/Mozilla Firefox/firefox.exe"'
+export BROWSER='"/mnt/c/Program Files (x86)/Mozilla Firefox/firefox.exe"'
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
